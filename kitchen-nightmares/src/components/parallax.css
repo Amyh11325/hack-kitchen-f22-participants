@@ -1,0 +1,33 @@
+.parallax {
+    /* The image used */
+    background-image: url('../img/fanart3.jpeg');
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-fanart {
+    /* The image used */
+    background-image: url('../img/fanart-collage.png');
+  
+    /* Set a specific height */
+    min-height: 1000px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 900px 900px;
+    margin: 5%;
+  }
+
+  .normal-font {
+    font-size: large;
+    margin: 5%;
+  }

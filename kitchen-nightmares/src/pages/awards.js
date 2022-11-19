@@ -1,29 +1,30 @@
 import React from "react";
-
-import img from "../img/fanart30.jpeg";
+import '../components/parallax.css'
 
 export default function Awards() {
     return (
         <>
-            <h1>Awards</h2>
-            <ul>
+            <h1>Awards</h1>
+            <ul class='normal-font'>
                 <li>
-                    restaurant gordodn ramsay in london voted top restraurtn uk and has 3 michele stars
+                Restaurant Gordon Ramsay, located at Royal Hospital Road, London, was voted Top Restaurant in the UK in the London Zagat Survey in 2001 and was awarded its third Michelin star.
+                He was appointed Officer of the Order of the British Empire (OBE) by Queen Elizabeth II in the 2006 New Year Honours list for services to the hospitality industry, but almost missed the award ceremony when his plane was delayed.
                 </li>
                 <li>
-                    officer of the order of the british empire (appointed by quieen elizatbeth) rip
+                On 14 June 2017, Ramsay set a new Guinness World Record for the 'Fastest time to fillet a 10 lb fish', achieving the record in 1 minute and 5 seconds.
                 </li>
                 <li>
-                    guinessess owrld record for fastest time to fillet a fish 1 MINUTE 5 seconds
+                On 16 August 2017, Ramsay set a 'Guinness World Record for the Longest Pasta Sheet Rolled in 60 Seconds', which measured 1.45 meters.
                 </li>
                 <li>
-                    <img src={img}/>
+                In June 2022, he was recognised by the International Hospitality Institute as one of the 100 Most Powerful People in Global Hospitality.
+                </li>
+                <div class="parallax"></div>
+                <li>
+                In January 2013, Ramsay was inducted into the Culinary Hall of Fame.
                 </li>
                 <li>
-                    guiness wrold record for longest pasta sheet roleld in 60 seconds 1.45 mieteres wth is a meter
-                </ul>
-                <li>
-                    100 most powerful people
+                In July 2006, Ramsay won the Catey award for "Independent Restaurateur of the Year", becoming only the third person to have won three Catey awards. Ramsay's two previous Catey awards were in 1995 (Newcomer of the Year) and 2000 (Chef of the Year).
                 </li>
             </ul>
         </>

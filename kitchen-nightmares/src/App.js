@@ -11,12 +11,14 @@ function App() {
     return (
         <Router>
             <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/awards" element={<Awards />} />
-                <Route path="/gallery" element={<Gallery />} />
-            </Routes>
+            <div style={{padding: '0rem 3rem'}}>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/awards" element={<Awards />} />
+                    <Route path="/gallery" element={<Gallery />} />
+                </Routes>
+            </div>
         </Router>
     );
 }
